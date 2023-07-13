@@ -1,0 +1,15 @@
+body {
+    font-family:'Dosis', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.header {
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}

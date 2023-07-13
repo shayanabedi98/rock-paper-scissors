@@ -24,19 +24,9 @@ h1 {
 }
 
 .card img {
-    height: 400px;
-}
-
-.card h2 {
-    font-size: 40px;
+    height: 200px;
 }
 
 .button-container {
     text-align: center;
-    margin-top: 50px;
-}
-
-#btn {
-    font-size: 40px;
-    font-family: 'Dosis', sans-serif;
 }
