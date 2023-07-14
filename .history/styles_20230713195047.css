@@ -1,0 +1,55 @@
+body {
+    font-family:'Dosis', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9F2042;
+    color: #F8E5EE;
+}
+
+h1 {
+    font-size: 60px;
+    text-shadow: 5px 5px 5px 5px #211103;
+}
+
+.header {
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    display: block;
+}
+
+.card {
+    display: inline-block;
+    background-color: #F8E5EE;
+    box-shadow: 0 0 10px 0 #211103;
+    margin: 0 40px;
+}
+
+.card img {
+    height: 400px;
+}
+
+.card h2 {
+    font-size: 40px;
+    color: #3D1308;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#btn {
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Dosis', sans-serif;
+    background-color: #F8E5EE;
+    color: #9F2042;
+    width: 200px;
+    height: 70px;
+    cursor: pointer;
+    border: 0;
+    box-shadow: 0 0 10px 0 #211103;
+}
