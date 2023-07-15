@@ -14,16 +14,16 @@ var rules = document.querySelector('.rules');
 var rulesClose = document.querySelector('.rules button');
 var rulesButton = document.querySelector('.rules-btn button');
 
+rules.style.visibility = 'hidden';
+
 rulesButton.addEventListener('click', function() {
-    rules.style.opacity = '100';
-    rules.style.transition = "0.5s"
     rules.style.visibility = 'visible';
 });
 
 rulesClose.addEventListener('click', function() {
     rules.style.visibility = 'hidden';
     rules.style.opacity = '0';
-    rules.style.transition = "0.5s"
+    rules.style.transition = "1s"
 });
 
 function rng() {

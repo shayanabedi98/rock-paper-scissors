@@ -118,9 +118,6 @@ h1 {
     width: 20%;
     z-index: 1;
     height: 450px;
-    visibility: hidden;
-    opacity: 100;
-    transition: 0.5s;
 }
 
 .rules p {

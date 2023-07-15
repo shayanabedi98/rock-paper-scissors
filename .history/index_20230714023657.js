@@ -10,21 +10,6 @@ var player = document.querySelector('.player img');
 var btn = document.querySelectorAll('.btn');
 var playerPick;
 var computerPick;
-var rules = document.querySelector('.rules');
-var rulesClose = document.querySelector('.rules button');
-var rulesButton = document.querySelector('.rules-btn button');
-
-rulesButton.addEventListener('click', function() {
-    rules.style.opacity = '100';
-    rules.style.transition = "0.5s"
-    rules.style.visibility = 'visible';
-});
-
-rulesClose.addEventListener('click', function() {
-    rules.style.visibility = 'hidden';
-    rules.style.opacity = '0';
-    rules.style.transition = "0.5s"
-});
 
 function rng() {
     return Math.floor(Math.random() * 3) + 1;
@@ -75,7 +60,7 @@ for (let i = 0; i < btn.length; i ++){
         document.querySelector('.computer h3').innerHTML = 'Computer: ' + scoreC;
 
         if (scoreC === 3) {
-            window.location.replace('./loser.html');
+            window.location.replace('./winner.html');
         } else if (scoreP === 3) {
             window.location.replace('./winner.html');
         }
@@ -85,4 +70,3 @@ for (let i = 0; i < btn.length; i ++){
 function playAgain() {
     window.location.replace('./index.html');
 }
-

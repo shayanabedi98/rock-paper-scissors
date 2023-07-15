@@ -27,7 +27,8 @@ h1 {
 
 .rules-btn button {
     font-family: 'Dosis', sans-serif;
-    font-size: 26px;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
     background-color: #F8E5EE;
     color: #211103;
     width: 100px;
@@ -118,9 +119,6 @@ h1 {
     width: 20%;
     z-index: 1;
     height: 450px;
-    visibility: hidden;
-    opacity: 100;
-    transition: 0.5s;
 }
 
 .rules p {

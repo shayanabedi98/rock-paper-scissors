@@ -15,8 +15,6 @@ var rulesClose = document.querySelector('.rules button');
 var rulesButton = document.querySelector('.rules-btn button');
 
 rulesButton.addEventListener('click', function() {
-    rules.style.opacity = '100';
-    rules.style.transition = "0.5s"
     rules.style.visibility = 'visible';
 });
 

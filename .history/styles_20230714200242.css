@@ -110,7 +110,7 @@ h1 {
     background-color: #F8E5EE;
     color: #211103;
     position: absolute;
-    box-shadow: 0 0 10px 0 #211103;
+    box-shadow: 0 0 1000px 0 #211103;
     border-radius: 10px;
     text-align: center;
     margin-left: 40%;
@@ -119,8 +119,6 @@ h1 {
     z-index: 1;
     height: 450px;
     visibility: hidden;
-    opacity: 100;
-    transition: 0.5s;
 }
 
 .rules p {
