@@ -85,13 +85,19 @@ for (let i = 0; i < btn.length; i ++){
 
         if (scoreC === 3) {
             window.location.replace('./loser.html');
+                winner.style.opacity = '100';
+                winner.style.transition = '0.5s';
+                winner.style.visibility = 'visible';
         } else if (scoreP === 3) {
             window.location.replace('./winner.html');
-
+                winner.style.opacity = '100';
+                winner.style.transition = '0.5s';
+                winner.style.visibility = 'visible';
         }
     });
 };
 
 function playAgain() {
     window.location.replace('./index.html');
-};
+}
+

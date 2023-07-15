@@ -1,6 +1,6 @@
 var scoreP = 0;
 var scoreC = 0;
-var winner = document.querySelector('.winner');
+var winner = document.querySelector('.winner h1');
 var caption = document.querySelector('.caption h2');
 var rock = document.querySelector('#rock');
 var paper = document.querySelector('#paper');
@@ -85,13 +85,23 @@ for (let i = 0; i < btn.length; i ++){
 
         if (scoreC === 3) {
             window.location.replace('./loser.html');
+            document.querySelector('.winner').addEventListener('load', function() {
+                winner.style.opacity = '100';
+                winner.style.transition = '0.5s';
+                winner.style.visibility = 'visible';
+            });
         } else if (scoreP === 3) {
             window.location.replace('./winner.html');
-
+            document.querySelector('.winner').addEventListener('load', function() {
+                winner.style.opacity = '100';
+                winner.style.transition = '0.5s';
+                winner.style.visibility = 'visible';
+            });
         }
     });
 };
 
 function playAgain() {
     window.location.replace('./index.html');
-};
+}
+

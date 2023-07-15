@@ -152,6 +152,11 @@ h1 {
     margin-top: 350px;
 }
 
+.winner h1 {
+    transition: 2.5s;
+    opacity: 100;
+}
+
 .winner button {
     font-family: 'Dosis', sans-serif;
     font-size: 40px;
@@ -164,4 +169,5 @@ h1 {
     border: 0;
     border-radius: 10px;
     box-shadow: 0 0 4px 0 #211103;
+    margin-top: 50px;
 }

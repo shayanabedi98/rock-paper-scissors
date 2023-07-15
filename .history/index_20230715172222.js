@@ -94,4 +94,10 @@ for (let i = 0; i < btn.length; i ++){
 
 function playAgain() {
     window.location.replace('./index.html');
-};
+}
+
+document.body.addEventListener('load', function() {
+    winner.style.opacity = '100';
+    winner.style.transition = '0.5s';
+    winner.style.visibility = 'visible';   
+})

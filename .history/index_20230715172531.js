@@ -94,4 +94,4 @@ for (let i = 0; i < btn.length; i ++){
 
 function playAgain() {
     window.location.replace('./index.html');
-};
+}

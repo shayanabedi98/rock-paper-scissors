@@ -1,6 +1,6 @@
 var scoreP = 0;
 var scoreC = 0;
-var winner = document.querySelector('.winner');
+var winner = document.querySelector('.winner h1');
 var caption = document.querySelector('.caption h2');
 var rock = document.querySelector('#rock');
 var paper = document.querySelector('#paper');
@@ -15,12 +15,11 @@ var rulesClose = document.querySelector('.rules button');
 var rulesButton = document.querySelector('.rules-btn button');
 var darkDiv = document.querySelector('.dark-div');
 
-//animations for the rules card
 rulesButton.addEventListener('click', function() {
     rules.style.opacity = '100';
     rules.style.transition = "0.5s"
     rules.style.visibility = 'visible';
-    darkDiv.style.opacity = '0.5';
+    darkDiv.style.opacity = '100';
     darkDiv.style.transition = "0.5s"
     darkDiv.style.visibility = 'visible';
 });
@@ -28,13 +27,9 @@ rulesButton.addEventListener('click', function() {
 rulesClose.addEventListener('click', function() {
     rules.style.visibility = 'hidden';
     rules.style.opacity = '0';
-    rules.style.transition = "0.5s";
-    darkDiv.style.visibility = 'hidden';
-    darkDiv.style.opacity = '0';
-    darkDiv.style.transition = "0.5s";
+    rules.style.transition = "0.5s"
 });
 
-//game mechanics
 function rng() {
     return Math.floor(Math.random() * 3) + 1;
 };
@@ -87,11 +82,11 @@ for (let i = 0; i < btn.length; i ++){
             window.location.replace('./loser.html');
         } else if (scoreP === 3) {
             window.location.replace('./winner.html');
-
         }
     });
 };
 
 function playAgain() {
     window.location.replace('./index.html');
-};
+}
+

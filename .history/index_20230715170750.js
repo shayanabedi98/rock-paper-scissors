@@ -1,6 +1,6 @@
 var scoreP = 0;
 var scoreC = 0;
-var winner = document.querySelector('.winner');
+var winner = document.querySelector('.winner h1');
 var caption = document.querySelector('.caption h2');
 var rock = document.querySelector('#rock');
 var paper = document.querySelector('#paper');
@@ -15,7 +15,6 @@ var rulesClose = document.querySelector('.rules button');
 var rulesButton = document.querySelector('.rules-btn button');
 var darkDiv = document.querySelector('.dark-div');
 
-//animations for the rules card
 rulesButton.addEventListener('click', function() {
     rules.style.opacity = '100';
     rules.style.transition = "0.5s"
@@ -34,7 +33,6 @@ rulesClose.addEventListener('click', function() {
     darkDiv.style.transition = "0.5s";
 });
 
-//game mechanics
 function rng() {
     return Math.floor(Math.random() * 3) + 1;
 };
@@ -85,13 +83,15 @@ for (let i = 0; i < btn.length; i ++){
 
         if (scoreC === 3) {
             window.location.replace('./loser.html');
+            winner.style.opacity = '100';
+            winner.transition = '0.5';
         } else if (scoreP === 3) {
             window.location.replace('./winner.html');
-
         }
     });
 };
 
 function playAgain() {
     window.location.replace('./index.html');
-};
+}
+

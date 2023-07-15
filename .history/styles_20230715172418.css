@@ -150,6 +150,8 @@ h1 {
 .winner {
     text-align: center;
     margin-top: 350px;
+    opacity: 100;
+    transition: 2.5s;
 }
 
 .winner button {
@@ -164,4 +166,5 @@ h1 {
     border: 0;
     border-radius: 10px;
     box-shadow: 0 0 4px 0 #211103;
+    margin-top: 50px;
 }
