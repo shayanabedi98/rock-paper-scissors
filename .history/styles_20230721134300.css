@@ -202,7 +202,7 @@ h1 {
         font-size: 30px;
         transform: none;
         position: relative;
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     .card {
@@ -233,8 +233,8 @@ h1 {
         width: 150px;
     }
     .card h3 {
-        font-size: 28px;
-        height: 40px;
+        font-size: 20px;
+        height: 30px;
         padding-top: 2px;
     }
 }
@@ -248,22 +248,17 @@ h1 {
 
 @media (max-width: 400px) {
 
-    h1 {
-        font-size: 40px;
-    }
-
     .card {
         margin: 0 10px;
     }
 
     .btn {
-        width: 90px !important;
-        height: 80px !important;
+        height: 50px;
     }
 
     .btn img {
-        width: 80px;
-        height: 80px !important; 
+        margin: 0 5px;
+
     }
 
 }

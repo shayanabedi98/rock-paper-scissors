@@ -48,7 +48,6 @@ h1 {
     position: absolute;
     margin-top: 250px;
     transform: translateX(-50px);
-    text-align: center;
 }
 
 .caption {
@@ -186,84 +185,18 @@ h1 {
 @media (max-width: 900px) {
 
     .card {
-        margin: 0 70px;
-    }
-
-    .card img {
-        height: 190px;
-        width: 180px;
-    }
-}
-
-@media (max-width: 680px) {
-    .rules-btn button {
-        width: 90px;
-        height: 45px;
-        font-size: 30px;
-        transform: none;
-        position: relative;
-        margin-top: 50px;
-    }
-
-    .card {
-        margin: 0 40px;
-    }
-}
-
-@media (max-width: 565px) {
-
-    h1 {
-        font-size: 50px;
-    }
-
-    .header {
-        text-align: center;
-        background-color: #7B0D1E;
-        height: 80px;
-        padding-top: 10px;
-        box-shadow: 0 0 12px 0 #211103;
-    }    
-
-    .card {
-        margin: 0 40px;
+        margin: 0 80px;
     }
 
     .card img {
         height: 160px;
         width: 150px;
     }
-    .card h3 {
-        font-size: 28px;
-        height: 40px;
-        padding-top: 2px;
-    }
 }
 
-@media (max-width: 465px) {
+@media (max-width: 800px) {
 
     .card {
-        margin: 0 20px;
+        margin: 0 80px;
     }
-}
-
-@media (max-width: 400px) {
-
-    h1 {
-        font-size: 40px;
-    }
-
-    .card {
-        margin: 0 10px;
-    }
-
-    .btn {
-        width: 90px !important;
-        height: 80px !important;
-    }
-
-    .btn img {
-        width: 80px;
-        height: 80px !important; 
-    }
-
 }

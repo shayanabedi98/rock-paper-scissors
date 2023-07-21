@@ -197,16 +197,14 @@ h1 {
 
 @media (max-width: 680px) {
     .rules-btn button {
-        width: 90px;
-        height: 45px;
-        font-size: 30px;
+        width: 60px;
+        height: 35px;
+        font-size: 20px;
         transform: none;
-        position: relative;
-        margin-top: 50px;
     }
 
     .card {
-        margin: 0 40px;
+        margin: 0 50px;
     }
 }
 
@@ -233,37 +231,14 @@ h1 {
         width: 150px;
     }
     .card h3 {
-        font-size: 28px;
-        height: 40px;
+        font-size: 20px;
+        height: 30px;
         padding-top: 2px;
     }
 }
 
 @media (max-width: 465px) {
-
-    .card {
-        margin: 0 20px;
+    .rules-btn button {
+        position: relative;
     }
-}
-
-@media (max-width: 400px) {
-
-    h1 {
-        font-size: 40px;
-    }
-
-    .card {
-        margin: 0 10px;
-    }
-
-    .btn {
-        width: 90px !important;
-        height: 80px !important;
-    }
-
-    .btn img {
-        width: 80px;
-        height: 80px !important; 
-    }
-
 }
